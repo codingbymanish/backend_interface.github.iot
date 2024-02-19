@@ -1,0 +1,539 @@
+body{
+    font-family: "Inter",Helvetica,sans-serif;
+    font-family: 'Inter', sans-serif;
+    /* background-color: rgb(0, 0, 0); */
+background-color: rgb(248,247,248);
+}
+
+.tabcontent{
+    margin-top: 6.5%;
+}
+.cardtext{
+color:rgb(207,229,255);
+font-size: 12.9px;
+font-family: 'Inter', sans-serif;
+font-weight: 700;
+}
+
+.cardtext1{
+    color: #B5B5C3;
+    font-size: 12.5px;
+}
+
+.cardtext2{
+    font-size: small;
+}
+
+.dollar{
+    color: #B5B5C3;
+}
+
+.tools{
+    position: fixed;
+    top:90%;
+    right: 5%;
+    z-index: 99;
+}
+.tools1{
+    position: fixed;
+    rotate:90deg;
+    top: 40%;
+    right: -10px;
+    z-index: 99;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+
+.tools2{
+    position: fixed;
+    rotate:90deg;
+    top: 55%;
+    right: 0;
+    z-index: 99;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.action:focus{
+color: white;
+}
+.action{
+    font-size: 13.5px;
+    color: black;
+}
+.action:hover{
+    color: rgb(13,133,254);
+}
+.action1{
+    font-size: 17px;
+}
+
+
+.action3{
+    font-size: 14px;
+}
+
+.authorsspan{
+    color: #B5B5C3;
+    font-size: 13px;
+}
+
+.actionli:hover{
+    background-color:#eef6ff;
+    color: rgb(13,133,254);
+}
+
+.actionli:hover .action{
+    color: rgb(13,133,254);
+}
+
+
+
+
+
+
+.navtabbutton{
+    border-bottom: 2px solid white;
+    border-radius: 0px;
+    outline: none;
+    border-top: 0px;
+    border-right: none;
+    border-left: none;
+}
+
+
+
+.navtabbutton:hover{
+    border-bottom: 2px solid rgb(13,133,254);
+    border-radius: 0px;
+    border-top: 0px;
+    border-right: none;
+    border-left: none;
+}
+
+.navtabbutton:focus{
+    border-bottom: 2px solid rgb(13,133,254);
+    border-radius: 0px;
+color: rgb(13,133,254);
+}
+
+
+.authorpic{
+    width: 45px;
+    border-radius: 50%;
+}
+.authorpic1{
+    width: 9%;
+    border-radius: 20%;
+
+}
+
+
+
+.navtab2{
+    color: #B5B5C3;
+    font-size: 13px;
+}
+
+.navtabname:hover{
+    color: rgb(13,133,254);
+}
+.navtabname{
+    color: black;
+    
+
+}
+.tablename{
+   
+    font-size: 13px
+}
+
+.Performanceimg{
+    margin-top: 10%;
+}
+
+.collast{
+    text-align:justify;
+    font-size: 30px;
+}
+
+
+.day:hover{
+    background-color:rgb(241,65,108);
+    color: white;
+  
+    border: 1px solid white;
+}
+
+.day:focus{
+    background-color: rgb(241,65,108);
+    color: white;
+}
+
+.tablehead{
+    font-size: 13px;
+}
+
+.authorpic5{
+    width: 40px;
+    border-radius: 20%;
+}
+
+.Keenthemes:hover{
+    color: rgb(13,133,254);
+    /* text-decoration: rgb(13,133,254); */
+}
+
+.Keenthemes{
+    font-size: 14px;
+}
+
+.defaulthome{
+    font-size: 13.35px;
+    color: rgb(181,181,195);
+}
+
+.default{
+    font-size: 20px;
+}
+.nava{
+    color: rgb(151,151,161);
+    font-size: 14px;
+}
+
+.nava:hover{
+    background-color: rgb(13,133,254);
+   font-size: 14px;
+    color: rgb(255, 255, 255);
+
+}
+
+.nava:focus{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background: rgb(13,133,254);
+}
+
+.navicon:hover{
+color: rgb(13,133,254);
+transition: all 0.3s;
+}
+
+
+@media screen and (max-width:1174px) {
+    .togglebutton{
+        display: none;
+    }
+
+    .navbartop{
+        display: none;
+    }
+}
+
+
+.accortext{
+    font-size: 15px;
+    color: #b7b8ba;
+}
+
+.dash{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+.dash2{
+    font-size: 13px;
+    font-weight: 600;
+    color: #B5B5C3;
+
+}
+.accortext:hover{
+    color: white;
+}
+
+.accordspan{
+    font-size: 12px;
+    font-weight: 900;
+    color: rgb(180,180,194);
+}
+
+.offcanvashead{
+    background-color: rgb(32,43,70);
+}
+
+
+
+
+#subdrop{
+    width: 600px;
+}
+
+#drop-icon-bg{
+    background-color: rgb(241, 241, 241);
+}
+
+
+
+#drop{
+    position: relative;
+}
+#drop:hover #subdrop {
+    display: block;
+}
+
+
+#drop2{
+    position: relative;
+}
+#drop2:hover #subdrop2 {
+    display: block;
+}
+
+
+
+
+#drop3{
+    position: relative;
+}
+#drop3:hover #subdrop3 {
+    display: block;
+}
+
+
+
+#drop4{
+    position: relative;
+}
+#drop4:hover #subdrop4 {
+    display: block;
+}
+
+
+#drop10{
+    position: relative;
+}
+#drop10:hover #subdrop10 {
+    display: block;
+}
+
+
+#drop5{
+    position: relative;
+}
+#drop5:hover #subdrop5 {
+    display: block;
+}
+
+#page-drop{
+
+    position: relative;
+
+}
+
+#page-drop:hover #page-subdrop {
+
+    display: block;
+
+}
+
+#page-subdrop{
+
+    border: none;
+
+    position: absolute;
+background-color: red;
+    width: 20vw;
+
+    /* height: 82vh; */
+
+}
+
+#page-subdrop li{
+
+    margin-right: 12px;
+
+}
+
+#page-subdrop #inner-li{
+
+    color: rgb(41, 41, 41);
+
+    font-size: 14px;
+
+}
+
+#page-subdrop #inner-li:hover{
+
+    transition: 0.4s;
+
+    background-color:#F2F2F2;
+
+    color: #3e98ff;
+
+}
+
+ 
+
+/* App Dropdwon */
+
+#app-drop{
+
+    position: relative;
+
+}
+
+#app-drop:hover #app-subdrop {
+
+    display: block;
+
+}
+
+#app-subdrop{
+
+    border: none;
+
+    position: absolute;
+
+    width: 20vw;
+
+}
+
+#app-drop-item{
+
+    color: rgb(116, 116, 116);
+
+    font-size: 16px;
+
+}
+
+#app-drop-item:hover{
+
+    transition: 0.4s;
+
+    background-color: #F2F2F2;
+
+    color: #3e98ff;
+
+}
+
+#app-items{
+
+    color: rgb(116, 116, 116);
+
+}
+
+#app-items:hover{
+
+    color: #3e98ff;
+
+}
+
+#page-subdrop li{
+
+    margin-right: 12px;
+
+}
+
+#page-subdrop #inner-li{
+
+    color: rgb(41, 41, 41);
+
+    font-size: 14px;
+
+}
+
+#page-subdrop #inner-li:hover{
+
+    transition: 0.4s;
+
+    background-color:#F2F2F2;
+
+    color: #3e98ff;
+
+}   
+
+
+
+#app-drop-item:hover #inner-drop {
+
+    display: block;
+
+}
+
+#inner-drop{
+
+    width: 18vw;
+
+    left: 100%;
+
+    top: 0%;
+}
+
+.headline{
+    font-size: 15px;
+}
+
+.actionli2:hover{
+    background-color:rgb(242, 242, 242);
+    /* color: aqua; */
+    transition: all 0.5s;
+}
+
+.actionli2{
+font-size: 13px;
+font-weight: 700;
+
+}
+
+.action2:hover{
+    color: #4f4fdc;
+    transform: all 0.5s;
+}
+
+.action2{
+    color: #9d9b9b;;
+    transform: all 0.5s;
+}
+
+.main{
+    color: #9d9b9b;
+}
+.main:hover{
+    color: rgb(13,133,254);
+}
+
+.main:focus{
+    color: rgb(13,133,254);
+
+}
+
+#qq{
+    width: 17%;
+}
+
+@media screen  and (max-width:1024px) {
+    #qq{
+        width: 25%;
+    }
+}
+
+
+@media screen  and (max-width:770px) {
+    #qq{
+        width: 30%;
+    }
+}
+
+
+
+.light:hover{
+background-color: rgb(13,133,254);
+color: white;
+}
+
+.logo{
+    position: fixed;
+    top: 83%;
+    left: 2%;
+}
